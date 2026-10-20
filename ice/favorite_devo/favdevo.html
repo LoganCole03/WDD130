@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Lynn G. Robins</td>
+            <td>Be 100 percent Responsible</td>
+            <td>BYU Provo</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>Jeffery R. Holland</td>
+            <td>"Remember Lot's Wife"</td>
+            <td>BYU Provo</td>
+            <td>2009</td>
+          </tr>
+          <tr>
+            <td>Brad Wilcox</td>
+            <td>His Grace is Sufficient</td>
+            <td>BYU Provo</td>
+            <td>2011</td>
+          </tr>
+          <tr>
+            <td>David A. Bednar</td>
+            <td>Things as They Really Are 2.0</td>
+            <td>BYU-Idaho</td>
+            <td>2024</td>
+          </tr>
+         </table>
+         <form>
+          <div>
+            <label for="speaker">Speaker:</label>
+            <input type="text" id="speaker" name="speaker">
+          </div>
+          <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+          </div>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
+          </div>
+          <div>
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year">
+          </div>
+          <button type="submit"> Add Devotional</button>
+         </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
