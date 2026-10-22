@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: orangered;
 
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .content-box {
-  background-color: white;
+  background-color: orangered;
   margin: 30px auto;
   width: 90%;
   max-width: 900px;
@@ -69,4 +69,7 @@ table{
 }
 th, td {
   text-align: center;
+}
+p {
+  color: orangered;
 }
