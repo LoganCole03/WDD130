@@ -1,7 +1,6 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
 .content1 {
-  /* This is the parent of the activity 1 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -171,7 +170,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  height: 700px;
+  height: 750px;
 }
 .red6 {
   width: 100%; 
